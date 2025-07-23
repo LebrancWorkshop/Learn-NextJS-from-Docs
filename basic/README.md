@@ -19,3 +19,15 @@
 
 - **react**: The Core React Library.
 - **react-dom**: DOM-specific methods providing to use React with the DOM.
+
+### JSX (JavaScript eXtension)
+
+- JavaScript Syntax that allowed you to write HTML-Like Syntax.
+  - Rule for JSX
+    - Return only the Single Root Element.
+    - Close all the tags
+    - camelCase most of the things (like "class" (HTML) -> "className" (JSX))
+
+### Babel
+
+- JavaScript Compiler to transform **JSX** to **JavaScript**
