@@ -8,11 +8,19 @@
       const domNode = document.getElementById('app');
 
       function Header() {
-        return <h1>Wow! It's funking a header component.</h1>;
+        return <h1>Wow! That's great.</h1>;
+      }
+
+      function App() {
+        return (
+          <div>
+            <Header />
+          </div>
+        )
       }
 
       const root = ReactDOM.createRoot(domNode);
-      root.render(<Header />);
+      root.render(<App />);
     </script>
   </body>
 </html>
